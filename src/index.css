@@ -1,0 +1,45 @@
+body {
+  background-color: #131515;
+}
+.App-header {
+
+  align-items: center;
+}
+  .header-content {
+    padding: 0px 80px 0px 80px;
+    
+  
+  }
+.register-button {
+ 
+  display: flex;
+  justify-content:flex-end;
+ 
+}
+.register-button img {
+  width: 150px;
+  margin-bottom: 50px;
+ 
+ 
+}
+.register-button img:hover {
+  background: rgba(208, 208, 208, 0.24);
+  cursor: pointer;
+}
+
+.register-button .container {
+  text-align: center;
+  position: relative;
+  top: 40%; 
+  transform: translateY(-50%);
+}
+
+.register-button .container div {
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
