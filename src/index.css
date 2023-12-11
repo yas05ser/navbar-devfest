@@ -10,31 +10,29 @@ body {
     
   
   }
-.register-button {
+.nav-register-button {
  
   display: flex;
   justify-content:flex-end;
  
 }
-.register-button img {
+.nav-register-button img {
   width: 150px;
   margin-bottom: 50px;
- 
- 
 }
-.register-button img:hover {
+.nav-register-button img:hover {
   background: rgba(208, 208, 208, 0.24);
   cursor: pointer;
 }
 
-.register-button .container {
+.nav-register-button .nav-container {
   text-align: center;
   position: relative;
   top: 40%; 
   transform: translateY(-50%);
 }
 
-.register-button .container div {
+.nav-register-button .nav-container div {
   position: absolute;
   color: white;
   font-size: 24px;
@@ -43,3 +41,30 @@ body {
   transform: translate(-50%, -50%);
 }
 
+@media (max-width: 768px) {
+ 
+  .header-content {
+    padding: 0px 40px 0px 40px;
+    
+  
+  }
+  .nav-register-button img {
+    width: 80px;
+    margin-bottom: 25px;
+
+  }
+  
+  
+  .nav-register-button .nav-container div {
+    font-size: 12px;
+  }
+  .nav-App-logo{
+    
+   
+    width: 120px;
+  }
+  .nav-register-button {
+  
+    margin-left: 200px;
+  }
+}

@@ -7,9 +7,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className="header-content">
-          <img src={logo} className="App-logo" alt="logo" />
-          <div className='register-button'>
-            <div className='container'>
+          <img src={logo} className="nav-App-logo" alt="logo" />
+          <div className='nav-register-button'>
+            <div className='nav-container'>
               <img src={RButton} alt="register" />
               <div>Register</div>
             </div>
